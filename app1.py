@@ -1,3 +1,3 @@
 import streamit as st
 
-st.title("konnitiha")
+st.title("こんにちは")
