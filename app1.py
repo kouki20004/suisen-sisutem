@@ -18,6 +18,12 @@ st.write(score)
 
 st.radio("性別を選んでくれ",["男性","女性"])
 
+list=[
+        {"latitude":35.05, "longitude":135.76},
+        {"latitude":35.04, "longitude":135.75},
+]
+st.map(list)
+
 
 camera = st.camera_input("写真を撮影してくれ")
 if    camera:
