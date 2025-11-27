@@ -24,7 +24,7 @@ for movie in movie_list:
     user_input[movie] = np.nan if rating == 0 else rating
 
 if st.button("推薦を表示"):
-    # 新しい行として追加
+    #新しい行として追加
     user_series = pd.Series(user_input) #ひとまずスライダー入力をseries形式に保存
     real2_with_user = pd.concat([real2, user_series.to_frame().T], ignore_index=True) #Seriesをdfに変換
 
