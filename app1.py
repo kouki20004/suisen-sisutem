@@ -7,7 +7,7 @@ name = st.text_input("名前を入力")
 st.write(name)
 
 st.checkbox("同意します")
-st.selectbox("次の中から現住所を教えて,["京都府","大阪府"])
+st.selectbox("次の中から現住所を教えて",["京都府","大阪府"])
 
 
 
